@@ -1,0 +1,56 @@
+.text-purple{
+    color: #000080;
+}
+.btn-purple {
+    background-color: #000080; /* Navy color */
+    color: white;
+    border-color: #000080; /* Match the background color */
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active {
+    background-color: #00004d; /* Darker navy color */
+    color: white;
+    border-color: #00004d; /* Match the darker background color */
+}
+.bg-purple{
+    background-color: #00004d; /* Darker navy color */
+
+}
+.nav-link{
+    font-family: Montserrat;
+    font-size: large;
+}
+
+.nav-item:hover, .nav-link.active{
+    border-bottom: 2px red solid;
+}
+.navbar-brand img{
+    width: 250px;
+}
+
+.text-montserrat{
+    font-family: Montserrat;
+
+}
+.fixed-height {
+    height: 200px !important; /* Set your desired fixed height */
+    object-fit: cover !important;
+    width: 100%; /* Ensure the image takes up the full width of its container */
+}
+
+/* 
+.nav-link:focus, .nav-link:active{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    border-bottom: 2px solid red;
+}
+.nav-link.active{
+    color: white !important;
+    font-weight:  bold;
+    border-bottom: 2px solid white;
+
+} */
